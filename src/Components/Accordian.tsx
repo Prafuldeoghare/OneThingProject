@@ -17,7 +17,7 @@ function Accordian({ title, description }: AccordianTypes) {
           setShow(!show);
         }}
       >
-        <div className="text-[#F2707C] font-medium text-xl font-['Questrial']">
+        <div className="text-[#F2707C] font-medium text-xl font-['Questrial'] max-[375px]:text-[14px]">
           {title}
         </div>
         <div>{!show ? <ChevronDown /> : <ChevronUp />}</div>

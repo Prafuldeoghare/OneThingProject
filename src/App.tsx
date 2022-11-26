@@ -6,6 +6,7 @@ import Form from "./Sections/Form";
 import Hero from "./Sections/Hero";
 import Rewards from "./Sections/Rewards";
 import Second from "./Sections/Second";
+import SecondMobile from "./Sections/SecondMobile";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <Rewards />
       <CreditCard />
       <Faq />
+      {/* For Mobile Design */}
+      <SecondMobile />
+      {/* */}
       <Footer />
     </div>
   );
