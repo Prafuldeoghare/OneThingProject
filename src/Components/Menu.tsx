@@ -20,7 +20,7 @@ function Menu() {
         </div>
         <ul
           className={`list-none flex items-center text-base font-medium max-[375px]:absolute max-[375px]:top-0 max-[375px]:right-0 max-[375px]:bottom-0 max-[375px]:bg-[#ffffff]  max-[375px]:flex-col max-[375px]:w-1/2 max-[375px]:translate-x-[100%] max-[375px]:items-start ${
-            show && "max-[375px]:-translate-x-[0px] shadow-2xl transition-all"
+            show && "max-[375px]:-translate-x-[0px] max-[375px]:shadow-2xl transition-all"
           }`}
         >
           <li

@@ -10,7 +10,7 @@ const InputField = ({ placeholder, style }: InputFieldProps) => {
     <input
       type="text"
       placeholder={`${placeholder ?? ""}`}
-      className={`w-[400px]  h-[64px]  pl-[16px] py-[25px] text-[#000] border rounded-[8px] placeholder-[#00000099] placeholder:font-medium leading-8 placeholder:text-[20px] ${style}`}
+      className={`w-[400px]  h-[64px] font-['Roboto']  pl-[16px] py-[25px] text-[#000] rounded-[8px] placeholder:[#00000099] placeholder:font-medium leading-8 placeholder:text-[20px] ${style}`}
     ></input>
   );
 };
